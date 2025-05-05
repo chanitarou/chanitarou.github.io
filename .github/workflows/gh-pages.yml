@@ -1,0 +1,27 @@
+name: Deploy Web to GitHub Pages
+
+on:
+  push:
+    branches: [main]          # main に push する度に自動実行
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm                   # npm キャッシュで高速化
+
+      - run: npm ci                    # lock があれば推奨、無ければ npm install
+      - run: npm run build:web         # dist/ を作る
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist          # ここが Web 出力先
