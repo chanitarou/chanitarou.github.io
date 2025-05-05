@@ -17,7 +17,7 @@ jobs:
           node-version: 20
           cache: npm                   # npm キャッシュで高速化
 
-      - run: npm ci                    # lock があれば推奨、無ければ npm install
+      - run: npm install --legacy-peer-deps
       - run: npm run build:web         # dist/ を作る
 
       - name: Deploy to GitHub Pages
