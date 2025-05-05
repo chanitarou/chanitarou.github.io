@@ -23,7 +23,7 @@
     "expo-linear-gradient": "~14.1.4",
     "expo-linking": "~7.1.4",
     "expo-location": "~18.1.4",
-    "expo-router": "~5.0.3",
+    "expo-router": "5.0.5",
     "expo-splash-screen": "~0.30.7",
     "expo-status-bar": "~2.2.3",
     "expo-symbols": "~0.4.4",
@@ -34,8 +34,8 @@
     "metro-config": "0.82.2",
     "metro-resolver": "0.82.2",
     "nativewind": "^4.1.23",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
+    "react": "19.2.0-canary-f7396427-20250501",
+    "react-dom": "19.2.0-canary-f7396427-20250501",
     "react-native": "0.74.4",
     "react-native-gesture-handler": "~2.24.0",
     "react-native-safe-area-context": "5.4.0",
@@ -48,6 +48,7 @@
     "@babel/core": "^7.25.2",
     "@expo/ngrok": "^4.1.0",
     "@types/react": "18.2.21",
+    "browserslist": "^4.23.0",
     "typescript": "~5.8.3"
   },
   "private": true
