@@ -38,6 +38,7 @@ export const mockNeeds: Need[] = [
     category: "2",
     images: [
       "https://images.unsplash.com/photo-1522771930-78848d9293e8?q=80&w=2940&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1596870230751-ebdfce98ec42?q=80&w=2787&auto=format&fit=crop",
     ],
     userId: "2",
     status: "open",
@@ -59,6 +60,7 @@ export const mockNeeds: Need[] = [
     category: "3",
     images: [
       "https://images.unsplash.com/photo-1606041011872-596597976b25?q=80&w=2788&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1586953208448-b95a79798f07?q=80&w=2960&auto=format&fit=crop",
     ],
     userId: "3",
     status: "open",
@@ -80,6 +82,7 @@ export const mockNeeds: Need[] = [
     category: "4",
     images: [
       "https://images.unsplash.com/photo-1611652022419-a9419f74343d?q=80&w=2788&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1602173574767-37ac01994b2a?q=80&w=2942&auto=format&fit=crop",
     ],
     userId: "4",
     status: "open",
@@ -101,6 +104,7 @@ export const mockNeeds: Need[] = [
     category: "5",
     images: [
       "https://images.unsplash.com/photo-1488459716781-31db52582fe9?q=80&w=2940&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1566385101042-1a0aa0c1268c?q=80&w=2934&auto=format&fit=crop",
     ],
     userId: "5",
     status: "open",
@@ -123,6 +127,7 @@ export const mockNeeds: Need[] = [
     category: "4",
     images: [
       "https://images.unsplash.com/photo-1549887534-1541e9326642?q=80&w=2940&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1578926375605-eaf7559b1458?q=80&w=2787&auto=format&fit=crop",
     ],
     userId: "1",
     status: "open",
@@ -144,6 +149,7 @@ export const mockNeeds: Need[] = [
     category: "8",
     images: [
       "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=2787&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1584473457493-17c4c24290c5?q=80&w=2787&auto=format&fit=crop",
     ],
     userId: "3",
     status: "open",
@@ -164,6 +170,7 @@ export const mockNeeds: Need[] = [
     category: "8",
     images: [
       "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?q=80&w=2940&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?q=80&w=2940&auto=format&fit=crop",
     ],
     userId: "2",
     status: "open",
@@ -185,6 +192,7 @@ export const mockNeeds: Need[] = [
     category: "6",
     images: [
       "https://images.unsplash.com/photo-1610701596007-11502861dcfa?q=80&w=2940&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1567280659941-31b35b8b8f22?q=80&w=2940&auto=format&fit=crop",
     ],
     userId: "4",
     status: "open",
@@ -206,6 +214,7 @@ export const mockNeeds: Need[] = [
     category: "2",
     images: [
       "https://images.unsplash.com/photo-1594552072238-5c4a26f10bfa?q=80&w=2787&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1550107070-78b0c7b7f321?q=80&w=2787&auto=format&fit=crop",
     ],
     userId: "5",
     status: "open",
@@ -228,6 +237,7 @@ export const mockNeeds: Need[] = [
     category: "4",
     images: [
       "https://images.unsplash.com/photo-1579541591970-e5615c6c9c3?q=80&w=2940&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1579762593175-20226054cad0?q=80&w=2942&auto=format&fit=crop",
     ],
     userId: "1",
     status: "open",
@@ -249,6 +259,7 @@ export const mockNeeds: Need[] = [
     category: "2",
     images: [
       "https://images.unsplash.com/photo-1583512603806-077998240c7a?q=80&w=2880&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?q=80&w=2972&auto=format&fit=crop",
     ],
     userId: "2",
     status: "open",
@@ -270,6 +281,7 @@ export const mockNeeds: Need[] = [
     category: "1",
     images: [
       "https://images.unsplash.com/photo-1594620302200-9a762244a156?q=80&w=2942&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1588627541420-fce3f661b779?q=80&w=2787&auto=format&fit=crop",
     ],
     userId: "3",
     status: "open",
@@ -293,6 +305,7 @@ export const mockNeeds: Need[] = [
     category: "2",
     images: [
       "https://images.unsplash.com/photo-1471970394675-613138e45da3?q=80&w=2940&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1629123357531-2c4fa2a4e1c9?q=80&w=2787&auto=format&fit=crop",
     ],
     userId: "4",
     status: "open",
@@ -314,6 +327,7 @@ export const mockNeeds: Need[] = [
     category: "6",
     images: [
       "https://images.unsplash.com/photo-1608181831718-c9ffd8dff23f?q=80&w=2787&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1602910344008-22f323cc1817?q=80&w=2940&auto=format&fit=crop",
     ],
     userId: "5",
     status: "open",
@@ -335,6 +349,7 @@ export const mockNeeds: Need[] = [
     category: "4",
     images: [
       "https://images.unsplash.com/photo-1578301978693-85fa9c0320b9?q=80&w=2944&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1579762593097-47565df0458c?q=80&w=2942&auto=format&fit=crop",
     ],
     userId: "1",
     status: "open",
@@ -357,6 +372,7 @@ export const mockNeeds: Need[] = [
     category: "2",
     images: [
       "https://images.unsplash.com/photo-1627123424574-724758594e93?q=80&w=2787&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1606664922998-f8ca6e4dfa47?q=80&w=2940&auto=format&fit=crop",
     ],
     userId: "2",
     status: "open",
@@ -378,6 +394,7 @@ export const mockNeeds: Need[] = [
     category: "1",
     images: [
       "https://images.unsplash.com/photo-1556911220-bff31c812dba?q=80&w=2968&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1600489000022-c2086d79f9d4?q=80&w=2835&auto=format&fit=crop",
     ],
     userId: "3",
     status: "open",
@@ -400,6 +417,7 @@ export const mockNeeds: Need[] = [
     category: "2",
     images: [
       "https://images.unsplash.com/photo-1545048702-79362596cdc9?q=80&w=2787&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1528825871115-3581a5387919?q=80&w=2830&auto=format&fit=crop",
     ],
     userId: "4",
     status: "open",
@@ -421,6 +439,7 @@ export const mockNeeds: Need[] = [
     category: "5",
     images: [
       "https://images.unsplash.com/photo-1563911892437-1feda0179e1b?q=80&w=2835&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1564890369478-c89ca6d9cde9?q=80&w=2940&auto=format&fit=crop",
     ],
     userId: "5",
     status: "open",
@@ -443,6 +462,7 @@ export const mockNeeds: Need[] = [
     category: "4",
     images: [
       "https://images.unsplash.com/photo-1536924940846-227afb31e2a5?q=80&w=2866&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1549490349-8643362247b5?q=80&w=2787&auto=format&fit=crop",
     ],
     userId: "1",
     status: "open",
@@ -465,6 +485,7 @@ export const mockNeeds: Need[] = [
     category: "2",
     images: [
       "https://images.unsplash.com/photo-1576566588028-4147f3842f27?q=80&w=2864&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1520923642038-b4259acecbd7?q=80&w=2819&auto=format&fit=crop",
     ],
     userId: "2",
     status: "open",
@@ -485,6 +506,7 @@ export const mockNeeds: Need[] = [
     category: "1",
     images: [
       "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=2940&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1505692952047-1a78307da8f2?q=80&w=2940&auto=format&fit=crop",
     ],
     userId: "3",
     status: "open",
@@ -508,6 +530,7 @@ export const mockNeeds: Need[] = [
     category: "4",
     images: [
       "https://images.unsplash.com/photo-1607344645866-009c320c5ab8?q=80&w=2787&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1522413452208-996ff3f3e740?q=80&w=2874&auto=format&fit=crop",
     ],
     userId: "4",
     status: "open",
@@ -530,6 +553,7 @@ export const mockNeeds: Need[] = [
     category: "6",
     images: [
       "https://images.unsplash.com/photo-1607006483224-75ee0df7c8a4?q=80&w=2787&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1600857544200-b2f666a9a2ec?q=80&w=2787&auto=format&fit=crop",
     ],
     userId: "5",
     status: "open",
@@ -552,6 +576,7 @@ export const mockNeeds: Need[] = [
     category: "4",
     images: [
       "https://images.unsplash.com/photo-1610464896103-ebf75a10b828?q=80&w=2940&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1580136579312-94651dfd596d?q=80&w=2787&auto=format&fit=crop",
     ],
     userId: "1",
     status: "open",
@@ -573,6 +598,7 @@ export const mockNeeds: Need[] = [
     category: "2",
     images: [
       "https://images.unsplash.com/photo-1533189046915-f4e5fb3e4aae?q=80&w=2940&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1528825871115-3581a5387919?q=80&w=2830&auto=format&fit=crop",
     ],
     userId: "2",
     status: "open",
@@ -594,6 +620,7 @@ export const mockNeeds: Need[] = [
     category: "1",
     images: [
       "https://images.unsplash.com/photo-1595424064782-4fb6eee9c1ef?q=80&w=2835&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1600566753051-f0b89df2dd90?q=80&w=2940&auto=format&fit=crop",
     ],
     userId: "3",
     status: "open",
@@ -616,6 +643,7 @@ export const mockNeeds: Need[] = [
     category: "4",
     images: [
       "https://images.unsplash.com/photo-1577083552431-6e5fd01aa342?q=80&w=2940&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1602491674275-16d0e92bf8c3?q=80&w=2864&auto=format&fit=crop",
     ],
     userId: "4",
     status: "open",
@@ -637,6 +665,7 @@ export const mockNeeds: Need[] = [
     category: "5",
     images: [
       "https://images.unsplash.com/photo-1563805042-7684c019e1cb?q=80&w=2940&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1621939514649-280e2ee25f60?q=80&w=2940&auto=format&fit=crop",
     ],
     userId: "5",
     status: "open",
