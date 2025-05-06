@@ -81,6 +81,7 @@ export default function HomeScreen() {
         onSelectCategory={setSelectedCategory}
       />
 
+      {/* 最新のニーズ セクション */}
       <View style={styles.sectionContainer}>
         <View style={styles.sectionHeader}>
           <Text style={styles.sectionTitle}>
@@ -102,6 +103,7 @@ export default function HomeScreen() {
         </View>
       </View>
 
+      {/* 人気のニーズ セクション */}
       <View style={styles.sectionContainer}>
         <LinearGradient
           colors={[Colors.light.primaryLight, Colors.light.background]}
@@ -130,7 +132,14 @@ export default function HomeScreen() {
         </View>
       </View>
 
+      {/* アート作品のニーズ セクション */}
       <View style={styles.sectionContainer}>
+        <LinearGradient
+          colors={[Colors.light.secondaryLight, Colors.light.background]}
+          style={styles.sectionBackground}
+          start={{ x: 0, y: 0 }}
+          end={{ x: 1, y: 1 }}
+        />
         <View style={styles.sectionHeader}>
           <Text style={styles.sectionTitle}>アート作品のニーズ</Text>
           <Pressable 
@@ -158,9 +167,10 @@ export default function HomeScreen() {
         </ScrollView>
       </View>
 
+      {/* 子供服のニーズ セクション */}
       <View style={styles.sectionContainer}>
         <LinearGradient
-          colors={[Colors.light.secondaryLight, Colors.light.background]}
+          colors={[Colors.light.infoLight, Colors.light.background]}
           style={styles.sectionBackground}
           start={{ x: 0, y: 0 }}
           end={{ x: 1, y: 1 }}
@@ -214,6 +224,7 @@ const styles = StyleSheet.create({
     width: 32,
     height: 32,
     marginRight: 8,
+    borderRadius: 16,
   },
   appName: {
     fontSize: 22,
@@ -270,15 +281,16 @@ const styles = StyleSheet.create({
   },
   sectionContainer: {
     marginTop: 24,
-    marginBottom: 8,
+    marginBottom: 16,
     position: "relative",
     paddingVertical: 16,
     borderRadius: 16,
+    overflow: "hidden",
   },
   sectionBackground: {
     ...StyleSheet.absoluteFillObject,
     borderRadius: 16,
-    opacity: 0.5,
+    opacity: 0.7,
     marginHorizontal: 16,
   },
   sectionHeader: {

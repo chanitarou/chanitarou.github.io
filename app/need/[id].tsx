@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { StyleSheet, View, Text, ScrollView, Pressable, Alert, Platform, ActivityIndicator } from "react-native";
-import { useLocalSearchParams, useRouter } from "expo-router";
+import { useLocalSearchParams, useRouter, Stack } from "expo-router";
 import { Image } from "expo-image";
-import { Calendar, Clock, Heart, MessageSquare, Share2, Eye, ChevronLeft, ChevronRight, ArrowLeft, Star, MapPin, Tag, AlertCircle, Check, DollarSign, Truck, MapPinOff } from "lucide-react-native";
+import { Calendar, Clock, Heart, MessageSquare, Share2, Eye, ChevronLeft, ChevronRight, Star, MapPin, Tag, AlertCircle, Check, DollarSign, Truck, MapPinOff } from "lucide-react-native";
 import * as Haptics from "expo-haptics";
 import { LinearGradient } from "expo-linear-gradient";
 
@@ -144,6 +144,8 @@ export default function NeedDetailScreen() {
 
   return (
     <View style={styles.container}>
+      <Stack.Screen options={{ title: "ニーズ詳細" }} />
+      
       <ScrollView contentContainerStyle={styles.contentContainer}>
         <View style={styles.imageContainer}>
           <Image
@@ -156,13 +158,6 @@ export default function NeedDetailScreen() {
             colors={["rgba(0,0,0,0.6)", "transparent", "transparent"]}
             style={styles.imageGradient}
           />
-          <Pressable 
-            style={styles.backButton} 
-            onPress={() => router.back()}
-            hitSlop={8}
-          >
-            <ArrowLeft size={24} color="#FFFFFF" />
-          </Pressable>
           
           {need.images.length > 1 && (
             <>
@@ -370,7 +365,7 @@ export default function NeedDetailScreen() {
             </View>
 
             {entries.length > 0 ? (
-              entries.map((entry) => (
+              entries.slice(0, 2).map((entry) => (
                 <EntryCard key={entry.id} entry={entry} />
               ))
             ) : (
@@ -486,18 +481,6 @@ const styles = StyleSheet.create({
     left: 0,
     right: 0,
     height: 100,
-  },
-  backButton: {
-    position: "absolute",
-    top: 16,
-    left: 16,
-    width: 40,
-    height: 40,
-    borderRadius: 20,
-    backgroundColor: "rgba(0, 0, 0, 0.3)",
-    justifyContent: "center",
-    alignItems: "center",
-    zIndex: 10,
   },
   imageNavButton: {
     position: "absolute",
@@ -857,6 +840,11 @@ const styles = StyleSheet.create({
     fontWeight: "600",
     color: Colors.light.text,
     marginBottom: 4,
+  },
+  relatedNeedBadge: {
+    fontSize: 12,
+    color: Colors.light.primary,
+    fontWeight: "600",
   },
   relatedNeedBudget: {
     fontSize: 12,

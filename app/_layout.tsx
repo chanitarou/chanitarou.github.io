@@ -67,7 +67,7 @@ function RootLayoutNav() {
         name="modal" 
         options={{ 
           presentation: "modal",
-          title: "情報",
+          title: "ダチオクについて",
         }} 
       />
       <Stack.Screen 
@@ -86,6 +86,18 @@ function RootLayoutNav() {
         name="entry/[id]" 
         options={{ 
           title: "提案詳細",
+        }} 
+      />
+      <Stack.Screen 
+        name="entries/[needId]" 
+        options={{ 
+          title: "提案一覧",
+        }} 
+      />
+      <Stack.Screen 
+        name="submit-entry/[needId]" 
+        options={{ 
+          title: "提案を作成",
         }} 
       />
       <Stack.Screen 

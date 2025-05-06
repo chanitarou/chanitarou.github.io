@@ -118,6 +118,7 @@ const styles = StyleSheet.create({
     height: 80,
     alignSelf: "center",
     marginBottom: 16,
+    borderRadius: 40,
   },
   appName: {
     fontSize: 24,
